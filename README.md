@@ -21,7 +21,7 @@
 - Jaewoo Lim (dlawodn10@yonsei.ac.kr)  
 
 ---
-## 주요 기능
+## Key Features
 
 - 한국 정치 문맥에 맞춘 감성 분류
 - 5개 감성 클래스 지원: `very negative`, `negative`, `neutral`, `positive`, `very positive`
@@ -29,7 +29,7 @@
 
 ---
 
-## 모델 학습 정보
+## Training Details
 
 - **수집 기간**: 2023년 12월 1일 ~ 12월 31일
 - **데이터 출처**: 뉴스 기사, 기사 댓글, 정당 보도 자료
