@@ -33,8 +33,6 @@ You can download the full model from [Hugging Face](https://huggingface.co/Jiyou
 
 ## Training Details
 
-- Training Period: January 6, 2024 – May 25, 2024
-
 - Data Collection Period: December 1, 2023 – December 31, 2023
 
 - Data Sources: News articles, online comments, and official political party statements
