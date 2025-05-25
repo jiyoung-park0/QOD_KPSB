@@ -7,6 +7,20 @@
 
 모델 학습에 사용된 단어는 정치 관련 코퍼스(기사, 댓글, 보도자료 등)에서 수집되었으며, 연세대학교 정치외교학과의 QOD(Qualities of Democracy) Lab 소속 학부생 및 대학원생들이 직접 감성 라벨링을 진행했습니다. 최종 데이터셋은 총 4,428개의 단어로 구성되어 있습니다.
 
+전체 모델은 [Hugging Face](https://huggingface.co/JiyoungP/QOD-Korean-Political-Sentiment-BERT)에서 다운로드하실 수 있습니다.
+
+## Authors
+
+- Jiyoung Park (jypark0@utexas.edu)
+- Sanghyun Park (shpark03@yonsei.ac.kr)    
+- Eunmi Cho (eunmicho@yonsei.ac.kr)
+- Minkyoung Jung (mk2561@gmail.com)
+- Joohyun Jung (wjdwngus654@naver.com)
+- Sinjae Kang (sinjae@yonsei.ac.kr)  
+- Sunwoo Kwak (sunwookwak@gmail.com)  
+- Jaewoo Lim (dlawodn10@yonsei.ac.kr)  
+
+---
 ## 주요 기능
 
 - 한국 정치 문맥에 맞춘 감성 분류
@@ -36,6 +50,31 @@
 
 ---
 
+## Model Performance
+
+| Metric     | Score   |
+|------------|---------|
+| Accuracy   | 0.7946  |
+| Precision  | 0.5991  |
+| Recall     | 0.5802  |
+| F1 Score   | 0.5888  |
+
+---
+
+## Training Hyperparameters
+
+- **Model**: `monologg/koelectra-base-v3-discriminator`  
+- **Epochs**: 10  
+- **Batch Size**: 8 (train & eval)  
+- **Learning Rate**: 2e-5  
+- **Weight Decay**: 0.01  
+- **Max Length**: 16  
+- **Evaluation Strategy**: per epoch  
+- **Save Strategy**: per epoch  
+- **Best Model Selection**: Enabled (`load_best_model_at_end=True`)  
+- **Tokenizer**: KoELECTRA Tokenizer
+
+---
 ## Usage
 
 ```python
@@ -43,3 +82,14 @@ from qod_kpsb import QODKPSBPredictor
 
 predictor = QODKPSBPredictor()
 print(predictor.predict("개검독재"))  # → very negative
+```
+
+---
+## Citation
+If you use this code or data in your work, please cite:
+
+Jiyoung Park, Sanghyun Park, Cho, Eunmi, Minkyoung Jung, Joohyun Jung, Sinjae Kang, Sunwoo Kwak and Jaewoo Lim
+
+"QOD_KPSB: Korean Political Sentiment BERT."
+GitHub repository: https://github.com/jiyoung-park0/QOD_KPSB
+
