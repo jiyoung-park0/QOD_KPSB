@@ -14,7 +14,7 @@ You can download the full model from [Hugging Face](https://huggingface.co/Jiyou
 - Jiyoung Park (jypark0@utexas.edu)
 - Sanghyun Park (shpark03@yonsei.ac.kr)    
 - Eunmi Cho (eunmicho@yonsei.ac.kr)
-- Minkyoung Jung (mk2561@gmail.com)
+- Minkung Jung (mk5441@yonsei.ac.kr)
 - Joohyun Jung (wjdwngus654@naver.com)
 - Sinjae Kang (sinjae@yonsei.ac.kr)  
 - Sunwoo Kwak (sunwookwak@gmail.com)  
@@ -96,7 +96,7 @@ print(predictor.predict("개검독재"))  # → very negative
 ## Citation
 If you use this code or data in your work, please cite:
 
-Jiyoung Park, Sanghyun Park, Cho, Eunmi, Minkyoung Jung, Joohyun Jung, Sinjae Kang, Sunwoo Kwak and Jaewoo Lim
+Jiyoung Park, Sanghyun Park, Eunmi Cho, Minkung Jung, Joohyun Jung, Sinjae Kang, Sunwoo Kwak and Jaewoo Lim
 
 "QOD_KPSB: Korean Political Sentiment BERT."
 GitHub repository: https://github.com/jiyoung-park0/QOD_KPSB
