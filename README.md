@@ -18,7 +18,7 @@
 - Joohyun Jung (wjdwngus654@naver.com)
 - Sinjae Kang (sinjae@yonsei.ac.kr)  
 - Sunwoo Kwak (sunwookwak@gmail.com)  
-- Jaewoo Lim (dlawodn10@yonsei.ac.kr)  
+- Jaeu Im (dlawodn10@yonsei.ac.kr)  
 
 ---
 ## Key Features
