@@ -87,7 +87,7 @@ print(predictor.predict("개검독재"))  # → very negative
 ## Citation
 If you use this code or data in your work, please cite:
 
-Jiyoung Park, Sanghyun Park, Eunmi Cho, Minkung Jung, Joohyun Jung, Sinjae Kang, Sunwoo Kwak and Jaewoo Lim
+Jiyoung Park, Sanghyun Park, Eunmi Cho, Minkung Jung, Joohyun Jung, Sinjae Kang, Sunwoo Kwak and Jaeu Im
 
 "QOD_KPSB: Korean Political Sentiment BERT."
 GitHub repository: https://github.com/jiyoung-park0/QOD_KPSB
